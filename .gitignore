@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Build output
+dist/
+build/
+coverage/
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Uploads and user-generated files
+uploads/*
+!uploads/.gitkeep
+storage/*
+!storage/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
